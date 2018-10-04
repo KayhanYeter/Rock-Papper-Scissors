@@ -10,7 +10,6 @@ rockButton.addEventListener("click",function () {
 	comparison(Selection[0])
 
 	if ( total >= numHand){
-		   	    alert("buradayım.")
 
 	  butonlaripasifet();}
 });
@@ -18,8 +17,7 @@ papper.addEventListener("click",function () {
 	comparison(Selection[1])
 
 	if ( total >= numHand){
-		   	    alert("buradayım.")
-
+		
 	  butonlaripasifet();}
 });
 
@@ -27,7 +25,6 @@ scissors.addEventListener("click",function () {
 	comparison(Selection[2])
 
 	if ( total >= numHand){
-		   	    alert("buradayım.")
 
 	  butonlaripasifet();}
 });
