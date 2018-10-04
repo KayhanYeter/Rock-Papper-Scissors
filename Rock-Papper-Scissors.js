@@ -37,7 +37,7 @@ function butonlaripasifet() {
 	 rockButton.style.display = 'none';
 	   papper.style.display = 'none';
 	   scissors.style.display = 'none';
-	   document.write("Kullanım hakkınız bitti.")
+	   document.write("Your usage right is over.")
 }
 
 	function comparison(userSelection) {
