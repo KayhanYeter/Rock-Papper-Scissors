@@ -11,14 +11,14 @@ rockButton.addEventListener("click",function () {
 
 	if ( total >= numHand){
 
-	  butonlaripasifet();}
+	  passivebuttons();}
 });
 papper.addEventListener("click",function () {
 	comparison(Selection[1])
 
 	if ( total >= numHand){
 		
-	  butonlaripasifet();}
+	  passivebuttons();}
 });
 
 scissors.addEventListener("click",function () {
@@ -26,11 +26,11 @@ scissors.addEventListener("click",function () {
 
 	if ( total >= numHand){
 
-	  butonlaripasifet();}
+	  passivebuttons();}
 });
 
 
-function butonlaripasifet() {
+function passivebuttons() {
 	 rockButton.style.display = 'none';
 	   papper.style.display = 'none';
 	   scissors.style.display = 'none';
